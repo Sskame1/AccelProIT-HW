@@ -1,0 +1,294 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+    /* Начало header */
+header {
+    /* background-color: aqua; */
+    width: 100%;
+    height: 64px;
+}
+
+.nav-header {
+    display: flex;
+    flex-direction: row-reverse;
+    position: absolute;
+    right: 0;
+    padding-top: 25px;
+    color: #888888;
+    cursor: pointer;
+}
+
+.nav-header ul {
+    display: flex;
+    list-style: none;
+    padding-right: 150px;
+}
+
+.nav-header ul li:first-child {
+    padding-right: 50px;
+}
+
+.logo {
+    position: absolute;
+    padding-left: 150px;
+    padding-top: 20px;
+    cursor: pointer;
+}
+    /* Конец header */
+    /* начало main */
+.frame1 {
+    width: 100%;
+    height: 716px;
+    background-color: rgb(209,213,216);
+    background-image: url(img/women.png);
+    background-repeat: no-repeat;
+}
+
+.blue-left {
+    position: absolute;
+}
+
+.women {
+    position: absolute;
+    width: 100%;
+}
+
+.text {
+    padding-left: 50%;
+    padding-top: 200px;
+}
+
+.desc {
+    color: #888888;
+    font-size: 12px;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.container-card {
+    display: flex;
+}
+
+.card {
+    padding-left: 50%;
+    display: flex;
+    padding-top: 50px;
+}
+
+.card2 {
+    position: absolute;
+    padding-left: 60%;
+    display: flex;
+    padding-top: 50px;
+}
+
+.card3 {
+    position: absolute;
+    padding-left: 70%;
+    display: flex;
+    padding-top: 50px;
+}
+
+.ok1 {
+    position: absolute;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.ok2 {
+    position: absolute;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.ok3 {
+    position: absolute;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.text-card1 {
+    position: absolute;
+    padding-top: 70px;
+}
+
+.text-card2 {
+    position: absolute;
+    padding-top: 70px;
+}
+
+.text-card3 {
+    position: absolute;
+    padding-top: 70px;
+}
+
+.btn-main {    
+    display: flex;
+    padding-top: 8%;
+    padding-left: 50%; 
+    position: absolute;
+}
+
+.btn {
+    background-color: #02A3FF;
+    width: 223px;
+    height: 60px;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.blue-right {
+    display: flex;
+    position: absolute;
+    right: 0;
+    top: 35%;
+}
+    /* Конец 1 */
+    /* анимация кнопок */
+.btn:hover {
+    background-color: #0185d1;
+}
+.home:hover , .how-work:hover {
+    color: rgb(218, 0, 0);
+}
+    /* начало frame2 */
+.container-card2 {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.info-1-text {
+    font-weight: 500;
+    font-size: 64px;
+    color: #02A3FF;
+}
+
+    /* Конец frame2 */
+    /* начало frame3 */
+.frame3 {
+    background-color: #F8F8F8;
+    height: 800px;
+}
+
+.title-fr3 {
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.cashback {
+    font-weight: 500;
+    font-size: 20px;
+    background-color: #02A3FF;
+    width: 145px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 160px;
+}
+
+.container-fr3 {
+    padding: 100px;
+}
+
+.cashback {
+    position: absolute;
+    margin-left: 18%;
+    margin-top: -45px;
+}
+
+    /* начало карточек */
+
+.logo-fr3-c {
+    background-color: #02A3FF;
+    width: 25px;
+    padding: 15px 20px;
+    border-radius: 50%;
+}
+
+.desc-fr3-c {
+    position: absolute;
+    padding-left: 100px;
+    color: #888888;
+}
+
+.title-fr3-c {
+    position: absolute;
+    padding-left: 100px;
+    margin-top: -70px;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.card-fr3-1 {
+    padding-top: 50px;
+    padding: 50px;
+}
+
+.card-fr3-2 {
+    margin-top: -250px;
+    padding-left: 60%;
+}
+
+.card-fr3-3 {
+    margin-top: -250px;
+    padding-left: 60%;
+}
+    /* конец frame3 */
+    /* начало frame4 */
+
+.container-card-fr4 {
+    padding-top: 80px;
+    padding-left: 150px;
+    padding-bottom: 80px;
+}
+
+.card-info-fr4 {
+    box-shadow: 7px 7px 30px 20px #F4F4F4;
+    width: 354px;
+    height: 204px;
+    display: flex;
+}
+
+.otstup {
+    padding: 30px;
+}
+
+.logo-info {
+    display: flex;
+}
+
+.name-info {
+    display: flex;
+    position: absolute;
+    padding-left: 80px;
+    margin-top: -50px;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.desc-info {
+    display: flex;
+    position: absolute;
+    padding-left: 80px;
+    margin-top: -30px;
+    color: #888888;
+}
+
+.container-card-fr4 {
+    display: flex;
+}
+
+.card-info-fr4 {
+    margin-right: 39px;
+    /* position: absolute; */
+}
