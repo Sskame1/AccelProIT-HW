@@ -290,5 +290,125 @@ header {
 
 .card-info-fr4 {
     margin-right: 39px;
-    /* position: absolute; */
+}
+
+.container-partner {
+    padding-left: 150px;
+    height: 400px;
+}
+
+.text-partner {
+    font-weight: 400;
+    font-size: 12px;
+    color: #888888;
+}
+
+.title-partner {
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.input-app {
+    display: flex;
+}
+
+.container-app {
+    position: absolute;
+    display: flex;
+    right: 0;
+    
+}
+.a, .f {
+    position: absolute;
+    width: 550px;
+    height: 60px;
+    margin-left: -700px;
+    margin-top: -130px;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding-left: 20px;
+}
+
+.b, .c, .d, .e {
+    position: absolute;
+    width: 260px;
+    height: 60px;
+    margin-left: -700px;
+    margin-top: -60px;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding-left: 20px;
+}
+
+.c {
+    margin-left: -410px;
+    margin-top: -60px;
+}
+
+.d {
+    margin-left: -700px;
+    margin-top: 10px;
+}
+
+.e {
+    margin-left: -410px;
+    margin-top: 10px;
+}
+
+.f {
+    margin-left: -700px;
+    margin-top: 80px;
+}
+
+.container-radiobtn {
+    position: absolute;
+    margin-left: -670px;
+    margin-top: 180px;
+}
+
+.text-p {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.text-p span {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.radio-btn-p {
+    position: absolute;
+    margin-left: -30px;
+}
+
+.btn-appl {
+    position: absolute;
+    margin-left: -350px;
+    margin-top: 160px;
+}
+
+    /* Конец frame4 и main */
+
+footer {
+    height: 88px;
+    width: 100%;
+    background-color: #F8F8F8;
+}
+
+.footer-logo {
+    display: flex;
+    position: absolute;
+    margin-top: 2%;
+    margin-left: 5%;
+}
+
+.footer-text {
+    display: flex;
+    position: absolute;
+    right: 0;
+    margin-top: 2%;
+    margin-right: 5%;
+    font-weight: 400;
+    font-size: 18px;
+    color: #888888;
 }
